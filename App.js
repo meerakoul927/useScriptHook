@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client'; // Import createRoot from the cor
 import useScriptHook from './src/components/useScriptHook/useScriptHook';
 
 function App() {
-    const status = useScriptHook("https://cdn.jsdelivr.net/npm/chart.js");
+    const status = useScriptHook("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js")
   return (
     <>
       <h1>Below showing the status of script</h1>
